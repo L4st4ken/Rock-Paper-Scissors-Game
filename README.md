@@ -37,7 +37,7 @@ This project was created as a practice exercise to strengthen JavaScript logic, 
 
 ## 📸 Demo Preview
 
-![Demo](https://l4st4ken.github.io/Rock-Paper-Scissors-Game/)
+[Demo](https://l4st4ken.github.io/Rock-Paper-Scissors-Game/)
 
 ---
 
