@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="css/gameStyle.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Rock Paper Scissors</h1>
+        <div class="board">
+            <div>Player</div>
+            <div>v/s</div>
+            <div>Computer</div>
+        </div>
+        <div class="weaponBoard">
+            <div class="weaponBoardTxt">Select your weapon</div>
+            <div class="weapon">
+                <button>✂️</button>
+                <button>🗞️</button>
+                <button>🪨</button>
+            </div>
+            <!-- <div class="result">
+                <div class="playerWeaponResult">✂️</div>
+                <div class="compWeaponResult">✂️</div>
+            </div> -->
+            <button class="btnTryAgain" hidden>Try Again</button>
+        </div>
+        <div class="containerFooter">
+            <div>Won: <span class="won">0</span></div>|
+            <div>Lost: <span class="lost">0</span></div>|
+            <div>Draw: <span class="draw">0</span></div>
+        </div>
+    </div>
+    <script src="js/gameScript.js"></script>
+</body>
+</html>
